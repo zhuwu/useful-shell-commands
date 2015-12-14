@@ -21,3 +21,8 @@
   ```
   <source of multiple lines> | perl -pe 's/\n$/ <delimeter text> /'
   ```
+5. Curl with HTTP authentication
+
+  ```
+  curl -u <username>:<password> <url>
+  ```
