@@ -19,6 +19,7 @@
 4. Join multiple lines into one line with delimeter
   
   ```
+  <source of multiple lines> | paste -s -d "<delimiter>"
   <source of multiple lines> | perl -pe 's/\n$/ <delimeter text> /'
   ```
 5. Curl with HTTP authentication
