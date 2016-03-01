@@ -27,4 +27,9 @@
   ```
   curl -u <username>:<password> <url>
   ```
-6. To redirect both `STDOUT` and `STDERR` to the same place, use the `>&` symbol. To redirect `STDOUT` only, use `1>`. Toredirect `STDERR` only, use `2>`.
+6. To redirect both `STDOUT` and `STDERR` to the same place, use the `>&` symbol. To redirect `STDOUT` only, use `1>`. Toredirect `STDERR` only, use `2>`.  
+7. Separate lines into fields according to delimiter and get selected portion
+
+  ```
+  <source> | cut -d '<delimiter>' -f 1,3-5
+  ```
