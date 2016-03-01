@@ -27,3 +27,4 @@
   ```
   curl -u <username>:<password> <url>
   ```
+6. To redirect both `STDOUT` and `STDERR` to the same place, use the `>&` symbol. To redirect `STDOUT` only, use `1>`. Toredirect `STDERR` only, use `2>`.
